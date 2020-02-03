@@ -1,0 +1,319 @@
+.hero-img {
+  width: 50%;
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width:320px) {
+  .logo {
+    margin-top: 2vh;
+    width: 5vh;
+    height: auto;
+  }
+
+  .header-name {
+
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .header-title {
+    text-align: center;
+    font-size: 1.5em;
+    vertical-align: bottom; 
+  }
+
+  .hero-img {
+    width: 70vw;
+    height: 15vh;
+  }
+
+  .projects {
+    font-size: 4vw;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .featured {
+    margin-left: 16%;
+    /* margin-right: 5%; */
+  }
+
+  .featured-item {
+    margin: 20px 20px 20px 0;
+  }
+
+  .featured-img {
+    width: 150px;
+    height: 150px;;
+  }
+
+  .featured-info {
+    font-size: 4vw;
+    margin-left: 0;
+  }
+
+  .featured-dsc {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (min-width:375px) {
+  .logo {
+    width: 5vh;
+    margin-left: -150px;
+    position: absolute;
+    top: 0;
+  }
+
+  .header-name {
+    margin-top: 2vh;
+    font-size: 7vw;
+  }
+
+  .header-title {
+    font-size: 5vw;
+  }
+
+  .hero-img {
+    width: 70vw;
+    height: 20vh;
+  }
+
+  .featured {
+    margin-left: 16%;
+  }
+}
+
+.break-line {
+  width: 15 vw;
+}
+
+@media screen and (min-width:414px) {
+  .logo {
+    width: 45px;
+    margin-left: -150px;
+  }
+
+  .header-name {
+    margin-top: 15px;
+    font-size: 7vw;
+  }
+
+  .header-title {
+    font-size: 5vw;
+  }
+
+  .hero-img {
+    width: 70vw;
+  }
+
+  .featured {
+    margin-left: 20%;
+  }
+}
+
+@media screen and (min-width:550px) {
+  .logo {
+    margin-top: 5vh;
+    width: 7vw;
+    margin-left: -200px;
+  }
+  
+  .header-name {
+    margin-top: 30px;
+    font-size: 6vw;
+  }
+
+  .header-title {
+    font-size: 4vw;
+  }
+
+  .featured {
+    margin-left: 0;
+  }
+
+  .featured-info {
+    font-size: 3vw;
+  }
+
+  .featured-dsc {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    margin-left: -300px;
+  }
+
+  .header-name  {
+    margin-top: 20px;
+    font-size: 5vw;
+    text-align: right;    
+  }
+
+  .header-title {
+    font-size: 4vw;
+    text-align: right;
+  }
+
+.hero-img {
+  width: 515px;
+  height: 300px;
+  margin-left: 10px;
+  }
+
+  .featured {
+    margin-left: 25px; 
+  }
+
+  .featured-info {
+    font-size: 2vw;
+  }
+
+  .featured-dsc {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .hero-img {
+    margin-left: 50px;
+  }
+  
+  .featured {
+    margin-left: 80px;
+  }
+}
+
+@media screen and (min-width: 1024px ) {
+  .logo {
+    margin-top: 20px;
+  }
+
+  .header-name  {
+    margin-top: 20px;
+    font-size: 4vw;
+    text-align: right;    
+  }
+
+  .header-title {
+    font-size: 2vw;
+    text-align: right;
+  }
+
+  .hero-img {
+    width: 700px;
+    height: 320px;
+    margin-left: 10px;
+    }
+
+    .featured {
+      margin-left: 10%;
+    }
+
+  .featured-img {
+    width: 180px;
+    height: 180px;;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-img {
+    margin-left: 60px;
+  }
+  
+  .featured {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (min-width: 1330px) {
+  .logo {
+    width: 85px;
+    margin-left: -500px;
+  }
+  
+  .hero-img {
+    width: 850px;
+    height: 400px;
+  }
+
+  .featured {
+    margin-left: 160px;
+  }
+
+  .featured-info {
+    font-size: 20px;
+  }
+
+  .featured-dsc {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1550px) {
+  .hero-img {
+    margin-left: 100px;
+  }
+  
+  .featured {
+    margin-left: 230px;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .logo {
+    width: 110px;
+    margin-left: -700px;
+  }
+  
+  .hero-img {
+    width: 1280px;
+    height: 600px;
+  }
+
+  .featured {
+    margin-left: 300px;
+  }
+
+  .featured-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  @media screen and (min-width: 2820px) and (max-width: 3200px) {
+    .logo {
+      margin-left: -1000px;
+    }
+
+    .projects {
+      font-size: 3vw;
+      margin-top: 20px;
+    }
+
+    .featured {
+      width: 1380px;
+    }
+
+    .featured-item {
+      margin-left: 7%;
+    }
+
+    .featured-info {
+      font-size: 2vw;
+    }
+
+    .featured-dsc {
+      font-size: 1vw;
+    }
+  }
+}

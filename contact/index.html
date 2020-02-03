@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="Description"
+      content="Mattia Leoni is a front end web developer who specialize in html and css."
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="stylesheet" href="/data/css/style.css" type="text/css" />
+    <title>Mattia Leoni | Web Developer</title>
+  </head>
+  <body>
+    <header>
+      <nav class="main-nav">
+        <img class="logo-contact" src="/data/images/logow.png" alt="logo" />
+        <ul class="contact-list">
+          <li><a class="contact-link" href="../index.html">Home</a></li>
+          <li><a class="contact-link" href="../esperienze/">Esperienze</a></li>
+          <li>
+            <a class="active contact-link" href="./index.html">Contatti</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="contact">
+      <div class="form-wrapper">
+        <header class="form-head">
+          <h2 class="contact-form">Contact Us</h2>
+        </header>
+        <form action="https://formspree.io/mattialeoni@gmail.com" method="POST">
+          <div class="name-form">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required />
+          </div>
+          <div class="email-form">
+            <label for="email">Email:</label>
+            <input type="email" required name="_replyto" />
+          </div>
+          <button type="submit" value="Send">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <nav class="lista-social">
+        <h4>Mattia Leoni &copy; 2020</h4>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="/data/images/twitter.svg" alt="twitter-social"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="/data/images/instagram.svg" alt="instagram-social"
+            /></a>
+          </li>
+          <!-- <li>
+            <a href="#"
+              ><img
+                src="/resources/icons/youtube-symbol 1.svg"
+                alt="youtube-social"
+            /></a>
+          </li> -->
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
